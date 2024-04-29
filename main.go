@@ -12,9 +12,9 @@ import (
 )
 
 func main() {
-	accessKeyID := "AKIAS3V7VTF3CAXORPMU"
-	secretAccessKey := "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"
-	region := "us-east-1"
+	accessKeyID := "access-key"
+	secretAccessKey := "secretAccessKey"
+	region := "region"
 
 	cfg, err := config.LoadDefaultConfig(context.TODO(),
 		config.WithRegion(region),
